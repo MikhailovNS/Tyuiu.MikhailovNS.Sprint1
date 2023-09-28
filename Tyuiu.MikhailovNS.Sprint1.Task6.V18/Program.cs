@@ -31,8 +31,8 @@ namespace Tyuiu.MikhailovNS.Sprint1.Task6.V18
 
             Console.WriteLine("Введите число: ");
             string value = Convert.ToString(Console.ReadLine());
-            var prov1 = value.Contains(',');
-            var prov2 = value.Contains('.');
+            var prov1 = value.Contains('.');
+            var prov2 = value.Contains(',');
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
